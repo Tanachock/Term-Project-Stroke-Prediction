@@ -40,4 +40,18 @@ Output
 ```
 28.89
 ```
-Check target
+Check target<br><br>
+![Screenshot 2567-03-03 at 03 16 17](https://github.com/Tanachock/Stroke-Prediction/assets/160312026/03ada2af-d5ab-4378-b99e-adf82d90dd18)<br>
+0 means it indicates a stroke.<br>
+1 means it's not a stroke.<br>
+
+Datasets imbalance<br>
+### Handle imbalance dataset
+Use SMOTE to solve the imbalance dataset.<br>
+SMOTE(Synthetic Minority Oversampling Technique) It is adds data to small classes by synthesizing new data from the original data set.
+```python
+oversample = SMOTE()
+X, y = oversample.fit_resample(X, y)
+```
+After use SMOTE
+
