@@ -25,5 +25,4 @@ stroke                 0
 ```
 Found a missing value namely BMI value.
 ### Handling Missing Values
-
-
+Plot graph to see the frequency range of BMI values.
