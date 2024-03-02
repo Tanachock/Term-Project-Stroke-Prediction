@@ -53,5 +53,6 @@ SMOTE(Synthetic Minority Oversampling Technique) It is adds data to small classe
 oversample = SMOTE()
 X, y = oversample.fit_resample(X, y)
 ```
-After use SMOTE
+After use SMOTE<br><br>
+![Screenshot 2567-03-03 at 03 29 52](https://github.com/Tanachock/Stroke-Prediction/assets/160312026/898f41d3-59a2-43e2-9ef7-644d5deeaad2)<br>
 
