@@ -40,7 +40,7 @@ Output
 ```
 28.89
 ```
-Check target<br><br>
+Check target class<br><br>
 ![Screenshot 2567-03-03 at 03 16 17](https://github.com/Tanachock/Stroke-Prediction/assets/160312026/03ada2af-d5ab-4378-b99e-adf82d90dd18)<br>
 0 means it indicates a stroke.<br>
 1 means it's not a stroke.<br>
