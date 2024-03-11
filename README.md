@@ -1,4 +1,6 @@
 # Stroke-Prediction
+The purpose of this project is to implement machine learning to real world scnario XD
+
 Import Datasets
 ```python
 df = pd.read_csv("healthcare-dataset-stroke-data.csv")
