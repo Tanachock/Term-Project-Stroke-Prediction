@@ -1,5 +1,7 @@
-# Stroke-Prediction
+# About the project
 The purpose of this project is to implement machine learning to real world scnario XD
+
+# Let have a look at ours dataset!
 
 Import Datasets
 ```python
