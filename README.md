@@ -6,10 +6,14 @@ This dataset comes from Kaggle, which includes healthcare information on many va
 
 Let's go on to the first phase, where we import the dataset using this command.
 
-Import Datasets
 ```python
 df = pd.read_csv("healthcare-dataset-stroke-data.csv")
 ```
+If you want to know what the data looks like. Use this command.
+```python
+df.head()
+```
+
 ## Preprocessing<br>
 ### Check Missing value
 ```python
