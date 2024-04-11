@@ -2,6 +2,9 @@
 The purpose of this project is to implement machine learning to real world scnario XD
 
 # Let have a look at ours dataset!
+This dataset comes from Kaggle, which includes healthcare information on many various groups of individuals, regardless of gender, age, weight, and so on, then we carefully examine them and put them into different models to make predictions that have the best outcome.
+
+Let's go on to the first phase, where we import the dataset using this command.
 
 Import Datasets
 ```python
