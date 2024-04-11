@@ -4,6 +4,13 @@ The purpose of this project is to implement machine learning to real world scnar
 # Let have a look at ours dataset!
 This dataset comes from Kaggle, which includes healthcare information on many various groups of individuals, regardless of gender, age, weight, and so on, then we carefully examine them and put them into different models to make predictions that have the best outcome.
 
+and for the 0 phase of our journey let's import some important library to use in our project
+
+```python
+#import things
+```
+
+## First phase data review (to get some insight)
 Let's go on to the first phase, where we import the dataset using this command.
 
 ```python
@@ -13,6 +20,8 @@ If you want to know what the data looks like. Use this command.
 ```python
 df.head()
 ```
+
+
 
 ## Preprocessing<br>
 ### Check Missing value
