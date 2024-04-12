@@ -21,6 +21,10 @@ If you want to know what the data looks like. Use this command.
 df.head()
 ```
 
+It should show like this 
+![image](https://github.com/Tanachock/Term-Project-Stroke-Prediction/assets/83536257/38725ab9-b9b2-41e6-8ce2-329a20b196ca)
+
+
 
 
 ## Preprocessing<br>
