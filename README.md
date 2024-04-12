@@ -24,10 +24,26 @@ df.head()
 It should show like this 
 ![image](https://github.com/Tanachock/Term-Project-Stroke-Prediction/assets/83536257/38725ab9-b9b2-41e6-8ce2-329a20b196ca)
 
+Now that we know which characteristic (column) of these data look like, some are numerical and some are categorical, we can know what to do with them.
+
+We know that our dataset includes 12 features, and **Stroke** feature is our target class. Let's take a closer look at them.
+```python
+#explore target data
+y = df['stroke']
+yf =  pd.DataFrame(y)
+print("number of patients that not have a stroke = " , y.value_counts()[0])
+print("number of patients that have a stroke = " , y.value_counts()[1])
+
+sns.countplot(x= y)
+plt.xlabel("0 represents no strokes and 1 represents strokes")
+plt.ylabel("counting ")
+plt.title('Comparison between patients with strokes and without stroke')
+```
 
 
 
-## Preprocessing<br>
+
+## Second phase Preprocessing<br>
 ### Check Missing value
 ```python
 df.isnull().sum() #check missing value
