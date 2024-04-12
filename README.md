@@ -52,7 +52,7 @@ stroke                 0
 
 Again, we have another problem with an imbalanced dataset and a missing value, but it is not as serious as the previous one, so we will fix both of them.
 
-
+> there is no duplicate data or any other problem in our dataset XD let move on
 
 ## Second phase Preprocessing<br>
 ### Check Missing value
