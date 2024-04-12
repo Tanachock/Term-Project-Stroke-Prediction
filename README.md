@@ -29,19 +29,28 @@ It should show like this
 Now that we know which characteristic (column) of these data look like, some are numerical and some are categorical, we can know what to do with them.
 
 We know that our dataset includes 12 features, and **Stroke** feature is our target class. Let's take a closer look at them.
-```python
-#explore target data
-y = df['stroke']
-yf =  pd.DataFrame(y)
-print("number of patients that not have a stroke = " , y.value_counts()[0])
-print("number of patients that have a stroke = " , y.value_counts()[1])
 
-sns.countplot(x= y)
-plt.xlabel("0 represents no strokes and 1 represents strokes")
-plt.ylabel("counting ")
-plt.title('Comparison between patients with strokes and without stroke')
+![output](https://github.com/Tanachock/Term-Project-Stroke-Prediction/assets/83536257/9fbd3ca9-9254-4f9d-b5d7-799bc095097f)
+
+oopsie! That's bad since we now have **imbalanced dataset**, which is a significant problem here because when we train the model, it will notice just one class more than another, making our model biased and only predicted to that class, but don't worry, we're going to fix that later.
+
+What about regular features? Is there something wrong like the target class? Let's check my locating missing values first.'
+```
+id                     0
+gender                 0
+age                    0
+hypertension           0
+heart_disease          0
+ever_married           0
+work_type              0
+Residence_type         0
+avg_glucose_level      0
+bmi                  201
+smoking_status         0
+stroke                 0
 ```
 
+Again, we have another problem with an imbalanced dataset and a missing value, but it is not as serious as the previous one, so we will fix both of them.
 
 
 
