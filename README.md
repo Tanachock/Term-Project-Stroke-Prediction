@@ -117,4 +117,6 @@ this is confusion matrix of RF model it showed that model performed well and pre
 
 > sorry if it too fast for you because this is our first ever big project and we try the best to explaining it XD
 
-
+## Ref
+[Our dataset](https://www.kaggle.com/datasets/imoore/60k-stack-overflow-questions-with-quality-rate)
+[SMOTE](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html)
